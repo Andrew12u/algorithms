@@ -28,6 +28,5 @@ def n_FindLeader(A):
 		if(A[j] == candidate):
 			count += 1
 	if(count > numElems // 2)
-		leader = candidate 
+		leader = candidate
 	return leader
-			
