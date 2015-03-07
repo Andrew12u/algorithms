@@ -1,0 +1,13 @@
+Ubuntu
+----------------------------
+
+Install `build-essentials` and run make
+
+    $ sudo apt-get install build-essentials
+    $ make
+
+To run the tests, install cunit and run the `test` target:
+
+    $ sudo apt-get install libcunit1-dev
+    $ make test
+
